@@ -1,0 +1,28 @@
+SCRIPT:SELECT * FROM newslatter WHERE newslatter_email = '_daniel_@hotmail.com' 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 27/01/2021 13:55:04
+------------------------------------------------------
+SCRIPT:SELECT * FROM newslatter WHERE newslatter_email = '_daniel_@hotmail.com' 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 20/05/2021 17:52:03
+------------------------------------------------------
+SCRIPT:SELECT * FROM newslatter WHERE newslatter_email = '_daniel_@hotmail.com.br' 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 20/05/2021 17:52:12
+------------------------------------------------------
+SCRIPT:INSERT INTO newslatter (newslatter_nome, newslatter_email, newslatter_data_cadastro) VALUES ('Daniel', '_daniel_@hotmail.com.br', CURRENT_TIMESTAMP) 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 20/05/2021 17:52:12
+------------------------------------------------------
+SCRIPT:SELECT * FROM newslatter WHERE newslatter_email = '_daniel_@hotmail.com' 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 15/06/2021 18:05:08
+------------------------------------------------------
+SCRIPT:SELECT * FROM newslatter WHERE newslatter_email = '_daniel_@hotmail.com.br' 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 17/12/2021 15:15:44
+------------------------------------------------------
+SCRIPT:SELECT * FROM newslatter WHERE newslatter_email = '_daniel_@hotmail.com' 
+URL: danielbsm.com.br//modulos/classes/dsnewslatter.class.php 
+Data de execução: 17/12/2021 15:17:27
+------------------------------------------------------

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+	<head>
+		<meta charset="utf-8"/>
+		<title>DanielBSM - Desenvolvimentos</title>
+		<meta name="description" content="Desenvolvimento e revenda de sistemas web, mobile e desktop. Faça seu orçamento conosco e veja nossos produtos.">
+		<meta name="keywords" content="Desenvolvimento, sistemas, web, mobile, desktop, IOS, Android, revenda, desenvolvimento web, desenvolvimento mobile, desenvolvimento desktop, programador, programador web, programador destkop, programador mobile, PHP, CSS, HTML, JAVASCRIPT, JAVA, Flutter, React, Android Studio, Mysql, Postgres, SQL, Banco de dados">
+		<meta name="author" content="rajesh-doot">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--website-favicon-->
+		<link href="images/favicon.png" rel="icon">
+		<!--plugin-css-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/plugin.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- template-style-->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+		<link href="css/coming-soon.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!--Start coming soon-->
+		<div class="wrapper">
+			<div class="container">
+				<div class="content">
+					<h1 class="comngg">Estamos trabalhando em algo incrível!</h1>
+					<div class="countdown">
+						<div class="countdown__days">
+							<div class="number"></div>
+							<span class>Dias</span>
+						</div>
+						<div class="countdown__hours">
+							<div class="number"></div>
+							<span class>Horas</span>
+						</div>
+						<div class="countdown__minutes">
+							<div class="number"></div>
+							<span class>Minutos</span>
+						</div>
+						<div class="countdown__seconds">
+							<div class="number"></div>
+							<span class>Segundos</span>
+						</div>
+					</div>
+					<p>Nosso website está em construção. Estaremos aqui em breve com nosso novo site incrível. Inscreva-se para ser notificado.</p>
+				</div>
+			</div>
+		</div>
+		<div class="cta-sec-bhv pt100 pb100 bg-gradient15">
+			<div class="container">
+				<div class="row justify-content-center text-center">
+					<div class="col-lg-7">
+						<div class="email-subs">
+							<h3>Fique atualizado de nossas noticias.</h3>
+							<p>Registre-se e receba através de seu e-mail todas noticias da nossa empresa e novidades do mercado.</p>
+						</div>
+					</div>
+				</div>
+				<form method="post" id="newslatter_form" enctype="multipart/form-data">
+					<div class="row justify-content-center mt40">
+						<div class="col-lg-4 v-center">
+							<div class="email-subs-form">
+								<input type="text" placeholder="Nome" name="input_cadastro_newsletter_nome" id="input_cadastro_newsletter_nome">
+							</div>
+						</div>
+						<div class="col-lg-5 v-center">
+							<div class="email-subs-form">
+								<div class="form-cta">
+									<input type="email" placeholder="Endereço de e-mail" name="input_cadastro_newsletter_email" id="input_cadastro_newsletter_email">
+									<button type="submit" name="submit" class="lnk btn-main bg-btn" id="btnCadastrar">Inscreva-se <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- MODAL ALERTA -->
+		<div class="modal fade" id="modal-alerta-messagem" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalCenterTitle"> <i class="fa fa-exclamation-triangle text-danger" aria-hidden="true"></i> Alerta</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		 <!-- MODAL ALERTA -->
+
+		 <!-- COOKIES -->
+	  
+		 <div class="cookie-consent"> 
+			 <span>Este site usa cookies para melhorar a experiência do usuário. Veja <a href="#" class="ml-1 text-decoration-none">Política de Privacidade</a></span>
+			<div class=" ml-2 d-flex align-items-center justify-content-center g-2"> 
+				<button class="allow-button mr-1" id="permitir_cookies">Permitir cookies</button> <button type="button" data-dismiss="cookie-consent" class="cancel-button" id="cancelar_cookies">Cancelar</button> 
+			</div>
+		</div>
+
+		  <!-- COOKIES -->
+
+		 <!-- MODAL SUCESSO -->
+		<div class="modal fade" id="modal-sucesso-messagem" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalCenterTitle"> <i class="fa fa-check-circle text-success" aria-hidden="true"></i> Sucesso</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		 <!-- MODAL SUCESSO -->
+
+		<div class="footer-row3 bg-">
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="footer-social-media-icons">
+								<a href="javascript:void(0)"><i class="fab fa-facebook"></i></a>
+								<a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+								<a href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a>
+								<a href="javascript:void(0)"><i class="fa fa-phone-square"></i></a>
+							</div>
+							<div class="footer-">
+								<p>Copyright © 2020 DanielBSM. Todos os direitos reservados.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End coming soon-->
+		<!--scroll to top-->
+		<a id="scrollUp" href="#top"></a>
+		<!-- js placed at the end of the document so the pages load faster -->
+		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/plugin.min.js"></script>
+		<!--common script file-->
+		<script src="js/main.js"></script>
+		<script>
+			(() => {
+		// Specify the deadline date
+		const deadlineDate = new Date('Junhe 01, 2022 23:59:59').getTime();
+		// Cache all countdown boxes into consts
+		const countdownDays = document.querySelector('.countdown__days .number');
+		const countdownHours = document.querySelector('.countdown__hours .number');
+		const countdownMinutes = document.querySelector('.countdown__minutes .number');
+		const countdownSeconds = document.querySelector('.countdown__seconds .number');
+		// Update the count down every 1 second (1000 milliseconds)
+		setInterval(() => {
+		// Get current date and time
+		const currentDate = new Date().getTime();
+		// Calculate the distance between current date and time and the deadline date and time
+		const distance = deadlineDate - currentDate;
+		// Calculations the data for remaining days, hours, minutes and seconds
+		const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		const hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+		const minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+		const seconds = Math.floor(distance % (1000 * 60) / 1000);
+		// Insert the result data into individual countdown boxes
+		countdownDays.innerHTML = days;
+		countdownHours.innerHTML = hours;
+		countdownMinutes.innerHTML = minutes;
+		countdownSeconds.innerHTML = seconds;
+		}, 1000);
+		})();
+		</script>
+
+		<script>
+			$(document).ready(function(){
+				var d = new Date();
+				
+				var termosPrivacidade = getCookie('termosPrivacidade');
+
+				if(termosPrivacidade == 'SIM' && termosPrivacidade != '')
+				{
+					$('.cookie-consent').remove();	
+				}
+			});
+
+			$('#cancelar_cookies').on('click', function(){  
+				$('.cookie-consent').remove();
+			});
+			
+			$('#permitir_cookies').on('click', function(){
+
+				setCookie('termosPrivacidade', 'SIM', 30);
+
+				$('.cookie-consent').remove();
+			});
+
+			$('#newslatter_form').on('submit', function(event){
+
+				event.preventDefault();
+
+				var input_nome = document.getElementById('input_cadastro_newsletter_nome');
+				var input_email = document.getElementById('input_cadastro_newsletter_email');
+				var modal_messagem = document.getElementsByClassName("modal-body")[0];
+
+				if(input_nome.value == '')
+				{
+					modal_messagem.innerHTML = 'O campo "Nome" deve ser preenchido!';
+					$('#modal-alerta-messagem').modal('show');
+				}
+				else if(input_email.value == '')
+				{
+					modal_messagem.innerHTML = 'O campo "Endereço de e-mail" deve ser preenchido!';
+					$('#modal-alerta-messagem').modal('show');
+				}
+				else
+				{
+
+					var btnCadastrar = document.getElementById('btnCadastrar');
+
+					$.ajax({
+						url: 'https://danielbsm.com.br//modulos/classes/dsnewslatter.class.php',
+						method: "POST",
+						data: new FormData(this),
+						cache: false,
+						dataType: "JSON",
+						contentType: false,
+						processData: false,
+						beforeSend:function()
+						{
+							btnCadastrar.innerHTML = 'Cadastrando...';
+							btnCadastrar.disabled = true;
+						},
+						success:function(resultado)
+						{
+							btnCadastrar.innerHTML = 'Inscreva-se';
+							btnCadastrar.disabled = false;
+
+							if(resultado.valid == false)
+							{
+								modal_messagem.innerHTML = resultado.message;
+								$('#modal-alerta-messagem').modal('show');
+							}
+							else
+							{
+								btnCadastrar.innerHTML = 'Inscreva-se';
+								btnCadastrar.disabled = false;
+								modal_messagem.innerHTML = resultado.message;
+								$('#modal-sucesso-messagem').modal('show');
+							}
+
+						},
+						error:function(e)
+						{
+							btnCadastrar.innerHTML = 'Inscreva-se';
+							btnCadastrar.disabled = false;
+							modal_messagem.innerHTML = e;
+							$('#modal-alerta-messagem').modal('show');
+						}
+					});
+				}
+
+			});
+
+			function setCookie(cname, cvalue, exdays) {
+				var d = new Date();
+				d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+				var expires = "expires="+d.toUTCString();
+				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+			}
+
+			function getCookie(cname) {
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for(var i = 0; i < ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0) == ' ') {
+						c = c.substring(1);
+					}
+					if (c.indexOf(name) == 0) {
+						return c.substring(name.length, c.length);
+					}
+				}
+				return "";
+			}
+		</script>
+	</body>
+</html>

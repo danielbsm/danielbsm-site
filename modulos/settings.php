@@ -1,0 +1,14 @@
+<?php
+
+/**** INFORMAÇÕES DE CONEXÃO DO BANCO DE DADOS ****/
+DEFINE("HOST","177.234.145.213"); // 177.234.145.199
+DEFINE("USER","u854624559_danielsm"); // u762936899_danielbsm
+DEFINE("PASSWORD","Sxa@5266*ka23%"); // B@5266*KA23%
+DEFINE("DATABASE","u854624559_danielbsm"); // u762936899_impacto
+/**** INFORMAÇÕES DE CONEXÃO DO BANCO DE DADOS ****/
+
+/************ DEFINIÇÕES DOS LOGS ****************/
+DEFINE("LOGS_ACTIVE", TRUE); //TRUE = ATIVADO /  FALSE = DESATIVADO
+DEFINE("LOGS_DIR", "../../logs"); // PASTA ONDE ESTA LOCALIZADO O ARQUIVO DE LOGS
+/************ DEFINIÇÕES DOS LOGS ****************/
+?>
